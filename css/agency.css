@@ -231,7 +231,6 @@ fieldset[disabled] .btn-xl.active {
     background-color: white;
     padding: 0;
     color: black;
-    padding-bottom: 15px;
   }
   .navbar-custom.affix .navbar-brand {
     font-size: 1.5em;
@@ -412,7 +411,7 @@ section h3.section-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(64, 64, 64, 0.9);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -736,4 +735,27 @@ images
 *****************************************************************/
 img#companylogo{
   width: 140px !important;
+}
+
+/****************************************************************
+Carousel arrows
+/* Carousel Control */
+.control-box {
+    text-align: right;
+    width: 87%;
+}
+
+.carousel-control{
+    background: black;
+    border: 0px;
+    border-radius: 0px;
+    display: inline-block;
+    font-size: 34px;
+    font-weight: 200;
+    line-height: 18px;
+    opacity: 0.5;
+    padding: 4px 10px 0px;
+    position: static;
+    height: 30px;
+    width: 30px;
 }
